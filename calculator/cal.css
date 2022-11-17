@@ -1,0 +1,65 @@
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            font-size: 40px;
+        }
+
+        .cal {
+            width: 50%;
+            height: 300px;
+            margin: auto;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px ;
+            border: 1px solid transparent;
+        }
+
+        #head {
+            width: 60%;
+            height: 20%;
+            /* border: 1px solid transparent; */
+            margin: auto;
+            margin-top: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+
+        #bottom {
+            width: 60%;
+            /* border: 1px solid green; */
+            height:auto;
+            margin: auto;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 80pX);
+            gap: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        }
+
+        #bottom>div {
+            /* border: 1px solid magenta; */
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: grid;
+            width: 70%;
+            height: 90%;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 25px;
+
+        }
+        .red{
+            background-color: red;
+            color: white;
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+   
